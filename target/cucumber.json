@@ -1,0 +1,96 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify User Login",
+        "description": "",
+        "id": "this-is-my-1-st-project;verify-user-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3042594100,
+              "error_message": "org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:63825/devtools/browser/d083412a-5770-435b-b1a8-1ae2d6d523eb\nBuild info: version: \u00274.7.0\u0027, revision: \u00270a5b49d16f\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.16\u0027\nDriver info: driver.version: ChromeDriver\r\n\tat org.openqa.selenium.remote.http.netty.NettyWebSocket.\u003cinit\u003e(NettyWebSocket.java:102)\r\n\tat org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)\r\n\tat org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)\r\n\tat org.openqa.selenium.devtools.Connection.\u003cinit\u003e(Connection.java:77)\r\n\tat org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)\r\n\tat java.base/java.util.Optional.map(Optional.java:265)\r\n\tat org.openqa.selenium.chromium.ChromiumDriver.\u003cinit\u003e(ChromiumDriver.java:114)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:81)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:49)\r\n\tat CuCumber_StepDefination.LogIn_StepDefination_Class.lunch_Application_Url(LogIn_StepDefination_Class.java:16)\r\n\tat ✽.Given Lunch Application Url(CuTest1.feature:4)\r\n",
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "Lunch Application Url",
+            "match": {
+              "location": "LogIn_StepDefination_Class.lunch_Application_Url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Click Login",
+            "match": {
+              "location": "LogIn_StepDefination_Class.click_Login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Enter Username",
+            "match": {
+              "location": "LogIn_StepDefination_Class.enter_Username()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Enter Password",
+            "match": {
+              "location": "LogIn_StepDefination_Class.enter_Password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Click Login2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 11
+                }
+              ],
+              "location": "LogIn_StepDefination_Class.click_Login(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Verify User Login Successfully",
+            "match": {
+              "location": "LogIn_StepDefination_Class.verify_User_Login_Successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This is my 1 st project",
+    "description": "",
+    "id": "this-is-my-1-st-project",
+    "keyword": "Feature",
+    "uri": "CuTest1.feature"
+  }
+]
